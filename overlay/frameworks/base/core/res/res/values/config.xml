@@ -239,8 +239,9 @@
     </string-array>
 
     <!-- True if the Irda service should be started at system start. This currently only
-         supports Samsung Galaxy S4. -->
+         supports Samsung Galaxy S4.
     <bool name="config_enableIrdaManagerService">true</bool>
+     -->
 
     <!-- Disabled unlocking with the menu key -->
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
