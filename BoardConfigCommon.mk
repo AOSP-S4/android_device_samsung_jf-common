@@ -82,6 +82,9 @@ BOARD_USES_SEPERATED_VOIP := true
 # Use seperate devices for 3-pole headset
 BOARD_USES_SEPERATED_HEADSET_MIC := true
 
+# Time services
+BOARD_USES_QC_TIME_SERVICES := true
+
 # SELinux
 ifeq ($(HAVE_SELINUX),true)
 BOARD_SEPOLICY_DIRS += \
