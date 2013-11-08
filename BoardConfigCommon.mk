@@ -123,3 +123,6 @@ endif
 
 # Use retire fence from MDP driver
 TARGET_DISPLAY_USE_RETIRE_FENCE := true
+
+# Don't build qcom camera HAL 	72
+USE_DEVICE_SPECIFIC_CAMERA := true
